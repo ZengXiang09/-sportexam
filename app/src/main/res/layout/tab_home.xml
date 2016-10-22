@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/lightBlue"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/backgroundGray"
+            android:text="选择项目"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/id_btn_basketball"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/basketball"
+            android:layout_height="95dp"
+            android:layout_width="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:id="@+id/id_btn_pullup"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/pullup"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="95dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/id_btn_volleyball"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/volleyball"
+            android:layout_height="95dp"
+            android:layout_width="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp"/>
+
+        <ImageButton
+            android:id="@+id/id_btn_situp"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/situp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="95dp"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/id_btn_football"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/football"
+            android:layout_height="95dp"
+            android:layout_width="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp" />
+
+        <ImageButton
+            android:id="@+id/id_btn_manrun"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/man_run"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="95dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/id_btn_solidball"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/solidball"
+            android:layout_height="95dp"
+            android:layout_width="170dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="4dp"/>
+
+        <ImageButton
+            android:id="@+id/id_btn_womenrun"
+            android:background="@drawable/img_btn_shape"
+            android:src="@drawable/women_run"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_height="95dp"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

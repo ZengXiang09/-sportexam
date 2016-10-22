@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundGray">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/lightBlue"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/backgroundGray"
+            android:text="考生查询"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_ly_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="137dp"
+        android:paddingLeft="4dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="4dp"
+            android:text="考号"/>
+
+        <EditText
+            android:id="@+id/id_text_num"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_marginLeft="20dp"
+            android:hint="请输入考号" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_ly_num"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginLeft="4dp"
+            android:text="姓名"/>
+        <EditText
+            android:id="@+id/id_text_name"
+            android:textSize="20sp"
+            android:hint="请输入姓名"
+            android:maxLines="1"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_btn_clear"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        android:text="清除"
+        android:textColor="@color/backgroundGray"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/id_btn_check"
+        android:layout_alignStart="@+id/id_btn_check" />
+
+    <Button
+        android:id="@+id/id_btn_check"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="查询"
+        android:textColor="@color/backgroundGray"
+        android:background="@drawable/shape"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
